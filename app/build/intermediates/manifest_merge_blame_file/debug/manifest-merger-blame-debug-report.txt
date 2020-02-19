@@ -1,0 +1,128 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.escape_game_grp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="15"
+8-->F:\Cours\M1\1ER SEMESTRE\Projet du mercredi\Defi Miage\ESCAPE_GAME_GRP\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->F:\Cours\M1\1ER SEMESTRE\Projet du mercredi\Defi Miage\ESCAPE_GAME_GRP\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.VIBRATE" />
+11-->F:\Cours\M1\1ER SEMESTRE\Projet du mercredi\Defi Miage\ESCAPE_GAME_GRP\app\src\main\AndroidManifest.xml:5:5-66
+11-->F:\Cours\M1\1ER SEMESTRE\Projet du mercredi\Defi Miage\ESCAPE_GAME_GRP\app\src\main\AndroidManifest.xml:5:22-63
+12
+13    <application
+13-->F:\Cours\M1\1ER SEMESTRE\Projet du mercredi\Defi Miage\ESCAPE_GAME_GRP\app\src\main\AndroidManifest.xml:6:5-59:19
+14        android:allowBackup="true"
+14-->F:\Cours\M1\1ER SEMESTRE\Projet du mercredi\Defi Miage\ESCAPE_GAME_GRP\app\src\main\AndroidManifest.xml:7:9-35
+15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+15-->[androidx.core:core:1.0.1] C:\Users\ASUS R510L\.gradle\caches\transforms-2\files-2.1\8f8ab13dc8f4e84e14a8bb3d9ac92bc4\core-1.0.1\AndroidManifest.xml:22:18-86
+16        android:debuggable="true"
+17        android:icon="@mipmap/ic_launcher"
+17-->F:\Cours\M1\1ER SEMESTRE\Projet du mercredi\Defi Miage\ESCAPE_GAME_GRP\app\src\main\AndroidManifest.xml:8:9-43
+18        android:label="@string/app_name"
+18-->F:\Cours\M1\1ER SEMESTRE\Projet du mercredi\Defi Miage\ESCAPE_GAME_GRP\app\src\main\AndroidManifest.xml:9:9-41
+19        android:roundIcon="@mipmap/ic_launcher_round"
+19-->F:\Cours\M1\1ER SEMESTRE\Projet du mercredi\Defi Miage\ESCAPE_GAME_GRP\app\src\main\AndroidManifest.xml:10:9-54
+20        android:supportsRtl="true"
+20-->F:\Cours\M1\1ER SEMESTRE\Projet du mercredi\Defi Miage\ESCAPE_GAME_GRP\app\src\main\AndroidManifest.xml:11:9-35
+21        android:theme="@style/AppTheme" >
+21-->F:\Cours\M1\1ER SEMESTRE\Projet du mercredi\Defi Miage\ESCAPE_GAME_GRP\app\src\main\AndroidManifest.xml:12:9-40
+22        <activity
+22-->F:\Cours\M1\1ER SEMESTRE\Projet du mercredi\Defi Miage\ESCAPE_GAME_GRP\app\src\main\AndroidManifest.xml:13:9-15:52
+23            android:name="com.example.escape_game_grp.EscapeActivity"
+23-->F:\Cours\M1\1ER SEMESTRE\Projet du mercredi\Defi Miage\ESCAPE_GAME_GRP\app\src\main\AndroidManifest.xml:14:13-43
+24            android:screenOrientation="portrait" />
+24-->F:\Cours\M1\1ER SEMESTRE\Projet du mercredi\Defi Miage\ESCAPE_GAME_GRP\app\src\main\AndroidManifest.xml:15:13-49
+25        <activity
+25-->F:\Cours\M1\1ER SEMESTRE\Projet du mercredi\Defi Miage\ESCAPE_GAME_GRP\app\src\main\AndroidManifest.xml:16:9-18:52
+26            android:name="com.example.escape_game_grp.QuestionnaireActivity"
+26-->F:\Cours\M1\1ER SEMESTRE\Projet du mercredi\Defi Miage\ESCAPE_GAME_GRP\app\src\main\AndroidManifest.xml:17:13-50
+27            android:screenOrientation="portrait" />
+27-->F:\Cours\M1\1ER SEMESTRE\Projet du mercredi\Defi Miage\ESCAPE_GAME_GRP\app\src\main\AndroidManifest.xml:18:13-49
+28        <activity
+28-->F:\Cours\M1\1ER SEMESTRE\Projet du mercredi\Defi Miage\ESCAPE_GAME_GRP\app\src\main\AndroidManifest.xml:19:9-21:52
+29            android:name="com.example.escape_game_grp.Enigme1Activity"
+29-->F:\Cours\M1\1ER SEMESTRE\Projet du mercredi\Defi Miage\ESCAPE_GAME_GRP\app\src\main\AndroidManifest.xml:20:13-44
+30            android:screenOrientation="portrait" />
+30-->F:\Cours\M1\1ER SEMESTRE\Projet du mercredi\Defi Miage\ESCAPE_GAME_GRP\app\src\main\AndroidManifest.xml:21:13-49
+31        <activity
+31-->F:\Cours\M1\1ER SEMESTRE\Projet du mercredi\Defi Miage\ESCAPE_GAME_GRP\app\src\main\AndroidManifest.xml:22:9-24:52
+32            android:name="com.example.escape_game_grp.Enigme2Activity"
+32-->F:\Cours\M1\1ER SEMESTRE\Projet du mercredi\Defi Miage\ESCAPE_GAME_GRP\app\src\main\AndroidManifest.xml:23:13-44
+33            android:screenOrientation="portrait" />
+33-->F:\Cours\M1\1ER SEMESTRE\Projet du mercredi\Defi Miage\ESCAPE_GAME_GRP\app\src\main\AndroidManifest.xml:24:13-49
+34        <activity
+34-->F:\Cours\M1\1ER SEMESTRE\Projet du mercredi\Defi Miage\ESCAPE_GAME_GRP\app\src\main\AndroidManifest.xml:25:9-27:52
+35            android:name="com.example.escape_game_grp.Enigme3Activity"
+35-->F:\Cours\M1\1ER SEMESTRE\Projet du mercredi\Defi Miage\ESCAPE_GAME_GRP\app\src\main\AndroidManifest.xml:26:13-44
+36            android:screenOrientation="portrait" />
+36-->F:\Cours\M1\1ER SEMESTRE\Projet du mercredi\Defi Miage\ESCAPE_GAME_GRP\app\src\main\AndroidManifest.xml:27:13-49
+37        <activity
+37-->F:\Cours\M1\1ER SEMESTRE\Projet du mercredi\Defi Miage\ESCAPE_GAME_GRP\app\src\main\AndroidManifest.xml:28:9-30:52
+38            android:name="com.example.escape_game_grp.Enigme4Activity"
+38-->F:\Cours\M1\1ER SEMESTRE\Projet du mercredi\Defi Miage\ESCAPE_GAME_GRP\app\src\main\AndroidManifest.xml:29:13-44
+39            android:screenOrientation="portrait" />
+39-->F:\Cours\M1\1ER SEMESTRE\Projet du mercredi\Defi Miage\ESCAPE_GAME_GRP\app\src\main\AndroidManifest.xml:30:13-49
+40        <activity
+40-->F:\Cours\M1\1ER SEMESTRE\Projet du mercredi\Defi Miage\ESCAPE_GAME_GRP\app\src\main\AndroidManifest.xml:31:9-33:52
+41            android:name="com.example.escape_game_grp.Enigme5Activity"
+41-->F:\Cours\M1\1ER SEMESTRE\Projet du mercredi\Defi Miage\ESCAPE_GAME_GRP\app\src\main\AndroidManifest.xml:32:13-44
+42            android:screenOrientation="portrait" />
+42-->F:\Cours\M1\1ER SEMESTRE\Projet du mercredi\Defi Miage\ESCAPE_GAME_GRP\app\src\main\AndroidManifest.xml:33:13-49
+43        <activity
+43-->F:\Cours\M1\1ER SEMESTRE\Projet du mercredi\Defi Miage\ESCAPE_GAME_GRP\app\src\main\AndroidManifest.xml:34:9-36:52
+44            android:name="com.example.escape_game_grp.Enigme6Activity"
+44-->F:\Cours\M1\1ER SEMESTRE\Projet du mercredi\Defi Miage\ESCAPE_GAME_GRP\app\src\main\AndroidManifest.xml:35:13-44
+45            android:screenOrientation="portrait" />
+45-->F:\Cours\M1\1ER SEMESTRE\Projet du mercredi\Defi Miage\ESCAPE_GAME_GRP\app\src\main\AndroidManifest.xml:36:13-49
+46        <activity
+46-->F:\Cours\M1\1ER SEMESTRE\Projet du mercredi\Defi Miage\ESCAPE_GAME_GRP\app\src\main\AndroidManifest.xml:37:9-39:52
+47            android:name="com.example.escape_game_grp.Enigme7Activity"
+47-->F:\Cours\M1\1ER SEMESTRE\Projet du mercredi\Defi Miage\ESCAPE_GAME_GRP\app\src\main\AndroidManifest.xml:38:13-44
+48            android:screenOrientation="portrait" />
+48-->F:\Cours\M1\1ER SEMESTRE\Projet du mercredi\Defi Miage\ESCAPE_GAME_GRP\app\src\main\AndroidManifest.xml:39:13-49
+49        <activity
+49-->F:\Cours\M1\1ER SEMESTRE\Projet du mercredi\Defi Miage\ESCAPE_GAME_GRP\app\src\main\AndroidManifest.xml:40:9-42:52
+50            android:name="com.example.escape_game_grp.Enigme8Activity"
+50-->F:\Cours\M1\1ER SEMESTRE\Projet du mercredi\Defi Miage\ESCAPE_GAME_GRP\app\src\main\AndroidManifest.xml:41:13-44
+51            android:screenOrientation="portrait" />
+51-->F:\Cours\M1\1ER SEMESTRE\Projet du mercredi\Defi Miage\ESCAPE_GAME_GRP\app\src\main\AndroidManifest.xml:42:13-49
+52        <activity
+52-->F:\Cours\M1\1ER SEMESTRE\Projet du mercredi\Defi Miage\ESCAPE_GAME_GRP\app\src\main\AndroidManifest.xml:43:9-45:52
+53            android:name="com.example.escape_game_grp.Enigme9Activity"
+53-->F:\Cours\M1\1ER SEMESTRE\Projet du mercredi\Defi Miage\ESCAPE_GAME_GRP\app\src\main\AndroidManifest.xml:44:13-44
+54            android:screenOrientation="portrait" />
+54-->F:\Cours\M1\1ER SEMESTRE\Projet du mercredi\Defi Miage\ESCAPE_GAME_GRP\app\src\main\AndroidManifest.xml:45:13-49
+55        <activity
+55-->F:\Cours\M1\1ER SEMESTRE\Projet du mercredi\Defi Miage\ESCAPE_GAME_GRP\app\src\main\AndroidManifest.xml:46:9-48:52
+56            android:name="com.example.escape_game_grp.Enigme10Activity"
+56-->F:\Cours\M1\1ER SEMESTRE\Projet du mercredi\Defi Miage\ESCAPE_GAME_GRP\app\src\main\AndroidManifest.xml:47:13-45
+57            android:screenOrientation="portrait" />
+57-->F:\Cours\M1\1ER SEMESTRE\Projet du mercredi\Defi Miage\ESCAPE_GAME_GRP\app\src\main\AndroidManifest.xml:48:13-49
+58        <activity
+58-->F:\Cours\M1\1ER SEMESTRE\Projet du mercredi\Defi Miage\ESCAPE_GAME_GRP\app\src\main\AndroidManifest.xml:49:9-51:52
+59            android:name="com.example.escape_game_grp.CoordonneeActivity"
+59-->F:\Cours\M1\1ER SEMESTRE\Projet du mercredi\Defi Miage\ESCAPE_GAME_GRP\app\src\main\AndroidManifest.xml:50:13-47
+60            android:screenOrientation="portrait" />
+60-->F:\Cours\M1\1ER SEMESTRE\Projet du mercredi\Defi Miage\ESCAPE_GAME_GRP\app\src\main\AndroidManifest.xml:51:13-49
+61        <activity android:name="com.example.escape_game_grp.MainActivity" >
+61-->F:\Cours\M1\1ER SEMESTRE\Projet du mercredi\Defi Miage\ESCAPE_GAME_GRP\app\src\main\AndroidManifest.xml:52:9-58:20
+61-->F:\Cours\M1\1ER SEMESTRE\Projet du mercredi\Defi Miage\ESCAPE_GAME_GRP\app\src\main\AndroidManifest.xml:52:19-47
+62            <intent-filter>
+62-->F:\Cours\M1\1ER SEMESTRE\Projet du mercredi\Defi Miage\ESCAPE_GAME_GRP\app\src\main\AndroidManifest.xml:53:13-57:29
+63                <action android:name="android.intent.action.MAIN" />
+63-->F:\Cours\M1\1ER SEMESTRE\Projet du mercredi\Defi Miage\ESCAPE_GAME_GRP\app\src\main\AndroidManifest.xml:54:17-69
+63-->F:\Cours\M1\1ER SEMESTRE\Projet du mercredi\Defi Miage\ESCAPE_GAME_GRP\app\src\main\AndroidManifest.xml:54:25-66
+64
+65                <category android:name="android.intent.category.LAUNCHER" />
+65-->F:\Cours\M1\1ER SEMESTRE\Projet du mercredi\Defi Miage\ESCAPE_GAME_GRP\app\src\main\AndroidManifest.xml:56:17-77
+65-->F:\Cours\M1\1ER SEMESTRE\Projet du mercredi\Defi Miage\ESCAPE_GAME_GRP\app\src\main\AndroidManifest.xml:56:27-74
+66            </intent-filter>
+67        </activity>
+68    </application>
+69
+70</manifest>

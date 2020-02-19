@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.escape_game_grp">
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".EscapeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".QuestionnaireActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Enigme1Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Enigme2Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Enigme3Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Enigme4Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Enigme5Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Enigme6Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Enigme7Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Enigme8Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Enigme9Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Enigme10Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CoordonneeActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

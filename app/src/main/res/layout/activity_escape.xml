@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".EscapeActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:background="@color/colorPrimary"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:text="ESCAPE GAME" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/escapePresentation_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:padding="20dp"
+            android:textSize="20sp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:textColor="@android:color/white"
+            android:text="Un ensemble d'enigmes vous seront présentées. Tentez de les résoudre le plus rapidement possible.\n\n Serez-vous à la hauteur ?"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width = "wrap_content"
+            android:layout_height = "wrap_content"
+            android:src = "@drawable/escape"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/escapeInfo_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="20dp"
+            android:textSize="20sp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:text="Vous êtes sur la version 'groupe'. \n\nVous avez donc juste accès aux énigmes mais vous ne pouvez pas valider vos réponses.\n\nSeul le chef du groupe peut valider vos réponses."
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/video_btn"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:layout_gravity="center"
+            android:text="CONTINUER"
+            android:textAlignment="center" />
+    </LinearLayout>
+
+</LinearLayout>
+

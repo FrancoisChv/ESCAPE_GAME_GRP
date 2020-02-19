@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="#000000"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:background="@color/colorPrimary"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:text="ESCAPE GAME" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:padding="20dp"
+            android:textSize="15sp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:textColor="@android:color/white"
+            android:text="Vous trouverez ci-dessous la liste de l'ensemble des énigmes à résoudre. \n\n Si vous bloquez, vous pourrez utiliser des indices. \n\n Attention : un indice vous fera perdre 30 secondes."
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:padding="20dp"
+            android:textSize="15sp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:textColor="@android:color/white"
+            android:text="ENIGME 1" />
+
+        <Button
+            android:id="@+id/enigme1_btn"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginRight="50dp"
+            android:background="@drawable/blue_button"
+            android:textAlignment="center"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:padding="20dp"
+            android:textSize="15sp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:textColor="@android:color/white"
+            android:text="ENIGME 2" />
+
+        <Button
+            android:id="@+id/enigme2_btn"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:textColor="@android:color/white"
+            android:background="@drawable/red_button"
+            android:textAlignment="center"  />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:padding="20dp"
+            android:textSize="15sp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:textColor="@android:color/white"
+            android:text="ENIGME 3" />
+
+        <Button
+            android:id="@+id/enigme3_btn"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginRight="50dp"
+            android:textColor="@android:color/white"
+            android:background="@drawable/blue_button"
+            android:textAlignment="center"  />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:padding="20dp"
+            android:textSize="15sp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:textColor="@android:color/white"
+            android:text="ENIGME 4" />
+
+        <Button
+            android:id="@+id/enigme4_btn"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:textColor="@android:color/white"
+            android:background="@drawable/red_button"
+            android:textAlignment="center"  />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:padding="20dp"
+            android:textSize="15sp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:textColor="@android:color/white"
+            android:text="ENIGME 5" />
+
+        <Button
+            android:id="@+id/enigme5_btn"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginRight="50dp"
+            android:textColor="@android:color/white"
+            android:background="@drawable/blue_button"
+            android:textAlignment="center"  />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:padding="20dp"
+            android:textSize="15sp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:textColor="@android:color/white"
+            android:text="ENIGME 6" />
+
+        <Button
+            android:id="@+id/enigme6_btn"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:textColor="@android:color/white"
+            android:background="@drawable/red_button"
+            android:textAlignment="center"  />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:padding="20dp"
+            android:textSize="15sp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:textColor="@android:color/white"
+            android:text="ENIGME 7" />
+
+        <Button
+            android:id="@+id/enigme7_btn"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginRight="50dp"
+            android:textColor="@android:color/white"
+            android:background="@drawable/blue_button"
+            android:textAlignment="center"  />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:padding="20dp"
+            android:textSize="15sp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:textColor="@android:color/white"
+            android:text="ENIGME 8" />
+
+        <Button
+            android:id="@+id/enigme8_btn"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:textColor="@android:color/white"
+            android:background="@drawable/red_button"
+            android:textAlignment="center"  />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:padding="20dp"
+            android:textSize="15sp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:textColor="@android:color/white"
+            android:text="ENIGME 9" />
+
+        <Button
+            android:id="@+id/enigme9_btn"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginRight="38dp"
+            android:textColor="@android:color/white"
+            android:background="@drawable/blue_button"
+            android:textAlignment="center"  />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:padding="20dp"
+            android:textSize="15sp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:textColor="@android:color/white"
+            android:text="ENIGME 10" />
+
+        <Button
+            android:id="@+id/enigme10_btn"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:textColor="@android:color/white"
+            android:background="@drawable/red_button"
+            android:textAlignment="center"  />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/suivant_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@color/colorAccent"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="Accéder au code mystère"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+</LinearLayout>
+
+

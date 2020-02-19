@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.escape_game_grp"
+    android:targetSandboxVersion="2"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="29" />
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.escape_game_grp.EscapeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.escape_game_grp.QuestionnaireActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.escape_game_grp.Enigme1Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.escape_game_grp.Enigme2Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.escape_game_grp.Enigme3Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.escape_game_grp.Enigme4Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.escape_game_grp.Enigme5Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.escape_game_grp.Enigme6Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.escape_game_grp.Enigme7Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.escape_game_grp.Enigme8Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.escape_game_grp.Enigme9Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.escape_game_grp.Enigme10Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.escape_game_grp.CoordonneeActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name="com.example.escape_game_grp.MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
